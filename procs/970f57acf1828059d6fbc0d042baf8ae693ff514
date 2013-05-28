@@ -1,1 +1,1 @@
-{min max} {return [expr $min+round(rand()*($max-$min))]}
+{min max} {return [expr $min+int(rand()*($max-$min))]}
