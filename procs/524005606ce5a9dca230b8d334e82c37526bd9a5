@@ -1,1 +1,1 @@
-i {return [expr rand()*$i]}
+i {return [expr int(rand()*$i)]}
