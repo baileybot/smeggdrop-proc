@@ -1,0 +1,1 @@
+txt { set lines [split $txt "\n"] ; set count = 0; foreach line $lines { if {count < 5} { puts $line ; count = count + 1} }}
