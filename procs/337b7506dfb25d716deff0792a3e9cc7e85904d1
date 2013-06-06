@@ -1,1 +1,1 @@
-txt { set count 0 ; set lines [split $txt "\n"] ; foreach line $lines {if {$count < 5} {print $line ;} }}
+txt { set count 0 ; set lines [split $txt "\n"] ; foreach line $lines {if {$count < 5} {print $line; set count [eval $count + 1]} }}
