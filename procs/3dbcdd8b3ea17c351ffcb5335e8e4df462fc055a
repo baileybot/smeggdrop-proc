@@ -1,1 +1,1 @@
-{{i {}}} { if {$i = ""} {print "BZZZZZZT"}}
+{{i {}}} { if {$i= = ""} {print "BZZZZZZT"}}
