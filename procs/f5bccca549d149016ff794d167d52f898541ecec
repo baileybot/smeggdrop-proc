@@ -1,0 +1,1 @@
+{} {print http://www.join.me/[randbetween 0 999]-[randbetween 0 999]-[randbetween 0 999]}
