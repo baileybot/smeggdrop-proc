@@ -1,1 +1,1 @@
-procname {info proc $procname}
+procname {info proc $procname ; info args $procname ; info body $procname}
