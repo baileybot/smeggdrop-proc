@@ -1,1 +1,1 @@
-args { string range {args} 1 5000}
+args { string range {$args} 1 5000}
