@@ -1,1 +1,1 @@
-procname {safeprint [info proc $procname] [info args $procname] [info body $procname]}
+procname {safeprint [info proc $procname] {[info args $procname]} [info body $procname]}
