@@ -1,1 +1,1 @@
-{{name {[nick]}}} {print "bzzzzt $name"}
+{{name {}}} {print "BZZZZT! $name, your attention please."}
