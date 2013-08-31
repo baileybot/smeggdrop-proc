@@ -1,1 +1,1 @@
-{{i {}}} { if {$i == ""} {print "BZZZZZZT"} {print "Applying the electrodes to $i... BZZZZT"}}
+{{name {[nick]}}} {print "bzzzzt"}
