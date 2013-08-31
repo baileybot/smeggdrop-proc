@@ -1,1 +1,1 @@
-i {http get $i}
+url {safeprint [lrange [http get $url] 3]}
