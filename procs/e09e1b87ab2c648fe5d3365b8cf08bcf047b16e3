@@ -1,1 +1,1 @@
-{} {print "YES!"}
+{} {[randbetween 1 5] > 2 ? print "YES!" : print "I think you've had enough." }
