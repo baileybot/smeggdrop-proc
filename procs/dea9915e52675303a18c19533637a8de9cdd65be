@@ -1,0 +1,1 @@
+{html {cmd HMtest_parse} {start hmstart}} {        regsub -all \{ $html {\&ob;} html; regsub -all \} $html {\&cb;} html; set w " \t\r\n" ;proc HMcl x {return "\[$x\]"} set exp <(/?)([HMcl ^$w>]+)[HMcl $w]*([HMcl ^>]*)> ; set sub "\}\n$cmd {\\2} {\\1} {\\3} \{" ; regsub -all $exp $html $sub html ; eval "$cmd {$start} {} {} \{ $html \}" ; eval "$cmd {$start} / {} {}"}
