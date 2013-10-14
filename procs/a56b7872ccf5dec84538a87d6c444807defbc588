@@ -1,1 +1,1 @@
-{} {{ ::dpstate == 1} {set $::dpstate 0 ; print "LISA NEEDS BRACES"} {set $::dpstate 1 ; print "DENTAL PLAN"}}
+{} { upvar dpstate dpstate; { $dpstate == 1} {set dpstate 0 ; print "LISA NEEDS BRACES"} {set dpstate 1 ; print "DENTAL PLAN"}}
