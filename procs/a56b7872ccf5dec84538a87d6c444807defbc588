@@ -1,1 +1,1 @@
-{} {print "Lisa needs braces!"}
+{} {set dpstate {if {dpstate == 1} {0} {1}} ; if {dpstate == 1} {print "DENTAL PLAN"} {print "LISA NEEDS BRACES"}}
