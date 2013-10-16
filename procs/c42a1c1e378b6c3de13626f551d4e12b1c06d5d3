@@ -1,1 +1,1 @@
-list {return lindex $list [randbetween 0 [llength $list]]}
+list {return [lindex $list [randbetween 0 [llength $list]]] }
