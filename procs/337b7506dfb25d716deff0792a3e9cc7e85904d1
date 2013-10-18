@@ -1,1 +1,0 @@
-txt { set count 0 ; set lines [split $txt "\n"] ; foreach line $lines {print $line} }
