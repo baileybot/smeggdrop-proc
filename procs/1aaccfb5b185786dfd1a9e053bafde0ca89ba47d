@@ -1,1 +1,1 @@
-{from to} {set x [subst "$from[string repeat { [incr from]} [incr to -$from]]"] ; if {$from > $to} {return [lsort -decreasing $x]} {return $x} }
+{from to} {if {$from > $to} {set a $from; set b $to} {set a $to; set b $from}; set x [subst "$from[string repeat { [incr from]} [incr to -$from]]"]}
