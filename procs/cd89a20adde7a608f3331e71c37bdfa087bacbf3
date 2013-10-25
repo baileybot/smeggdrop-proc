@@ -1,1 +1,1 @@
-{} {set j 0; foreach i [seq 1 5] {set j [lappend $j "butts"]} ; return $j}
+{} {set j 0; foreach i [seq 1 5] {set j [lappend j "butts"]} ; return $j}
