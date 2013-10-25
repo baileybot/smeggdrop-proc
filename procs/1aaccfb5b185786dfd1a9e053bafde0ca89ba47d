@@ -1,1 +1,1 @@
-{from to} {if {$from > $to} {set a $from; set b $to} {set a $to; set b $from}; set x [subst "$a[string repeat { [incr a]} [incr to -$a]]"]}
+{from to} {if {$from > $to} {set a $from; set b $to} {set a $to; set b $from}; set x [subst "$a[string repeat { [incr a]} [incr b -$a]]"]}
