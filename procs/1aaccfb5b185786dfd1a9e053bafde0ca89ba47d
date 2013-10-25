@@ -1,1 +1,1 @@
-{a b} {if {$a < $b} {eval return \[list $a [string repeat "\[incr a\] " [incr b -$a]]\]} {eval return \[list $a [string repeat "\[incr a -1\] " [expr [incr b $a]-2]]\]}}
+{from to} {if {$from >= $to} { for {set i $from} {$i <= $to} {incr i} {lappend out $i}} else {for {set i $from} {$i >= $to} {incr i -1} {lappend out $i}} return $out}
