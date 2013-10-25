@@ -1,1 +1,1 @@
-{a b} {if {$a < $b} {eval return \[list $a [string repeat "\[incr a\] " [incr b -$a]]\]} {eval return \[list $a [string repeat "\[decr a\] " [incr b $a]]\]}}
+{a b} {if {$a < $b} {eval return \[list $a [string repeat "\[incr a\] " [incr b -$a]]\]} {eval return \[list $a [string repeat "\[incr b\] " [incr a -$b]]\]}}
