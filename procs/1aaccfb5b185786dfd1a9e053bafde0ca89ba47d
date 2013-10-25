@@ -1,1 +1,1 @@
-{from to} {set out {}; if {$from >= $to} { for {set i $from} {$i <= $to} {incr i} {lappend [upvar out] $i}} else {for {set i $from} {$i >= $to} {incr i -1} {lappend out $i}}; return [upvar out]}
+{from to} {set out {}; if {$from >= $to} { for {set i $from} {$i <= $to} {incr i} {lappend [upvar out] $i}} else {for {set i $from} {$i >= $to} {incr i -1} {lappend out $i}}; return [upvar $out]}
