@@ -1,0 +1,1 @@
+glob {string map [list \[ \\\[ * \\* ? \\? \\ \\\\] $glob}
