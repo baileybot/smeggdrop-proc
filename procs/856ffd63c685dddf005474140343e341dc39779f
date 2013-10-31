@@ -1,1 +1,1 @@
-{matches cmd args} {pyramid [last $matches]}
+{matches cmd args} {. $matches $cmd $args}
