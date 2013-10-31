@@ -1,1 +1,1 @@
-scalar {Xorg {A properly implemented PRNG} {USB hotswap} {wireless cards} SATA EGA IPv6 IPv4 {serial consoles}}
+scalar {Xorg {A properly implemented PRNG} {USB hotswap} {wireless cards} SATA EGA IPv6 IPv4 {serial consoles} {multiple monitors}}
