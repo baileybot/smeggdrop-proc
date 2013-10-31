@@ -55,6 +55,7 @@ strip_all 4f2fcfac11b586cc810f9858a5b5613f19d25525
 strip_color 64ff39213d131bca6787051448e1f381ed85ec13
 tots 86902da6f381ba3f7d1257ddae0dc1758224a38a
 unknown 50d8b4a941c26b89482c94ab324b5a274f9ced66
+{unknown:1:cmd/(.+)_word$/} 6091c91baaf7f6beb9a1041f15620c302190abd7
 {unknown:2:cmd/(.+)amid$/} 856ffd63c685dddf005474140343e341dc39779f
 {unknown:2:cmd/(.+)say$/} 8dd874d439c08ce3002544b2b39b47051bed0bfd
 unknown:handler_for 8bbe4e26521bc2414eb52c173e94335e34bf7060
