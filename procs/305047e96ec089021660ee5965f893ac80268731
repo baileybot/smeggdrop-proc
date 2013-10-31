@@ -1,0 +1,1 @@
+{str len} {return [string repeat \  [expr {($len/2)-([string length $str]/2)}]]$str}
