@@ -1,0 +1,1 @@
+{x y} { set a " "; set lines [split $y "\n"]; set n [llength $lines]; set d [expr "$x - $n"]; set m [maxstringlength $lines]; set e [string repeat $a $m]; set nlines [padlinesto $m $lines]; set y [join $nlines "\n"]; for {set i 0} {$i < $d} {incr i} { set y  "$y\n$e"; }; return $y; }
