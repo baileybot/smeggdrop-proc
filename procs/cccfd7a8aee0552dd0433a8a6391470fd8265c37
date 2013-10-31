@@ -1,0 +1,1 @@
+str {set ret [list]; foreach proc [info procs] {if {[string first [string toupper $str] [string toupper [info body $proc]]] != -1} {lappend ret $proc}}; if {$ret eq ""} {set ret "None"}; return $ret}
