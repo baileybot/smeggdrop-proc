@@ -45,6 +45,7 @@ skynet fd1c35bc62d78bd9de4b0bf57db605ecb02a36ab
 src f27fede2220bcd326aee3e86ddfd4ebd0fe58cb9
 stampsay a90401811d9b778f292f76d6d1a8f5041a1bb102
 stealproc d5af9b373bf7d4653e7d648bba43208ddaab3289
+strip_all 4f2fcfac11b586cc810f9858a5b5613f19d25525
 tots 86902da6f381ba3f7d1257ddae0dc1758224a38a
 {unknown:2:cmd/(.+)say$/} 8dd874d439c08ce3002544b2b39b47051bed0bfd
 unknown:handler_for 8bbe4e26521bc2414eb52c173e94335e34bf7060
