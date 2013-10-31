@@ -1,1 +1,18 @@
-procname {subst [join { $procname \{[info args $procname]\} \{[info body $procname]\} } ]}
+args {
+	set proc [lindex $args 0]
+	set procs [info commands [escape_glob $proc]*]
+	
+	if {[llength [info commands [escape_glob $proc]]] == 1} {
+		src $proc
+	} elseif {[llength $procs] == 0} {
+		if [llength [set handler [apply unknown:handler_for $args]]] {
+		  src [lindex $handler 0]
+		} else {
+		  error "\"$proc\" isn't a procedure"
+		}
+	} elseif {[llength $procs] == 1} {
+		src [first $procs]
+	} else {
+		error "\"$proc\" is one of [conjoin [lsort $procs] or]"
+	}
+}
