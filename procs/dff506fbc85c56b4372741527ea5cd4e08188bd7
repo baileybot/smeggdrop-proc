@@ -1,1 +1,1 @@
-url {safeprint [lrange [http get $url] 2 2]}
+url {set result [http get [wget_encode [urlify $url]]]; set status [lindex $result 0]; if {[lsearch {301 302 303} $status] >= 0} {regexp {Location ([^\s]+)} [lindex $result end-1] fullmatch path; set newurl [urlify $path $url]; wget $newurl}; if {$status == 200} {return [lindex $result 2]}; error "HTTP $status"}
