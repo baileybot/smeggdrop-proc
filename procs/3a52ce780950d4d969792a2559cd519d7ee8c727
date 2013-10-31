@@ -1,1 +1,1 @@
-i {return $i}
+args {lappend args; return [join ${args}]}
