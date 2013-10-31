@@ -1,0 +1,1 @@
+a { set m 0; foreach j $a { set sl [llength [split $j "\n"]]; if {$m < $sl} { set m $sl; }; }; return $m; }
