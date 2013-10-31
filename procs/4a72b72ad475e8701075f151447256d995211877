@@ -1,1 +1,1 @@
-{} {print "DOES DEBIAN STABLE SUPPORT [lindex_random $debianfeatures] YET"}
+{} {print "DOES DEBIAN STABLE SUPPORT [lindex_random [uplevel $debianfeatures]] YET"}
