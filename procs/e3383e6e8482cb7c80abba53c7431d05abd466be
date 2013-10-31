@@ -1,0 +1,1 @@
+{path {domain localhost}} {if [regexp -nocase {^https?://} $path] then {return $path} elseif [regexp -nocase {^/} $path] then {regsub -nocase {([^/])/[^/].*} $domain {\1} domain; urlify "$domain$path"} else {urlify "http://$path"}}
