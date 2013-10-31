@@ -1,1 +1,1 @@
-{matches cmd args} {lindex_random [set "dict:[last $matches]]}
+{matches cmd args} {lindex_random [set "dict:[last $matches"]]}
