@@ -1,4 +1,4 @@
-{station KMDW} {
+{{station KMDW}} {
 	set station [string toupper $station]
 	set weather [split [wget "http://weather.noaa.gov/pub/data/observations/metar/decoded/$station.TXT"] \n]
 	set wind ""
