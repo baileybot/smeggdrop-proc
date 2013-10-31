@@ -1,0 +1,1 @@
+{list {count 1}} { if {${count} == 1} {lindex ${list} end} else {lrange ${list} [- [llength $list] $count] end}}
