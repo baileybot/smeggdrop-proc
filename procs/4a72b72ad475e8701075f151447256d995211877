@@ -1,1 +1,1 @@
-{} {upvar debianfeatures debianfeatures ; print "DOES DEBIAN STABLE SUPPORT [string upper [lindex_random $debianfeatures]] YET"}
+{} {upvar debianfeatures debianfeatures ; print "DOES DEBIAN STABLE SUPPORT [string toupper [lindex_random $debianfeatures]] YET"}
