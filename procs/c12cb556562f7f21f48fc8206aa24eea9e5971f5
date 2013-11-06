@@ -1,1 +1,1 @@
-{matches cmd args} {print img-[last $matches]}
+{matches cmd args} {print [array get img [last $matches]]}
