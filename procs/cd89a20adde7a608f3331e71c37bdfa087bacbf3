@@ -1,1 +1,0 @@
-{{buttcount 5}} {set j {}; foreach i [seq 1 $buttcount] {set j [lappend j "butts"]} ; return $j}
