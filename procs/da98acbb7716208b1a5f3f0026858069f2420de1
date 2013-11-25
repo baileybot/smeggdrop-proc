@@ -1,1 +1,1 @@
-{} {regsub mad [angry] jumex}
+{} {regsub mad [angry] jumex; print "http://i.imgur.com/z4DKZu0.jpg"}
