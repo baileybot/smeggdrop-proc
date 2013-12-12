@@ -1,1 +1,1 @@
-args {error "$args NOW FIX IT"}
+{nick cmd args} {error "$cmd is banished to the land of functioning repraps"}
