@@ -1,0 +1,1 @@
+what {if ${what eq ""} {set what "smoke weed"}; set time [clock format [clock seconds] -format "%H:%M"] ;return "$time $what errday"}
