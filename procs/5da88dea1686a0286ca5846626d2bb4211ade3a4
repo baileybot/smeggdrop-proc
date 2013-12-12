@@ -1,1 +1,1 @@
-{{what {}}} {if {$who eq ""} {set what "smoek weed"}; set time [clock format [clock seconds] -format "%H:%M"] ; return "$time [string tolower $what] errday"}
+{{what {}}} {if {$what eq ""} {set what "smoek weed"}; set time [clock format [clock seconds] -format "%H:%M"] ; return "$time [string tolower $what] errday"}
