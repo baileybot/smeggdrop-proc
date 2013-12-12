@@ -1,1 +1,1 @@
-{{what {}}} {if {$what eq ""} {set what "smoek weed"}; set time [clock format [clock seconds] -format "%H:%M"] ; . "$time [string tolower "$what"] errday"}
+args {if {$args eq ""} {set args "smoek weed"}; set time [clock format [clock seconds] -format "%H:%M"] ; . "$time [string tolower "$args"] errday"}
