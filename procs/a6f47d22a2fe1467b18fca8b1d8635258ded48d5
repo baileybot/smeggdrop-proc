@@ -1,1 +1,1 @@
-args {erryday $args}
+args {erryday [join $args]}
