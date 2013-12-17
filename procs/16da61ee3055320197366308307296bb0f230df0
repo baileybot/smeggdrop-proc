@@ -1,0 +1,1 @@
+{} {upvar debianfeatures debianfeatures ; print "DOES ARCH LINUX SUPPORT BOOTING YET? DEBIAN HAS SUPPORTED [string toupper [lindex_random $debianfeatures]] FOR [randbetween 1 10] YEARS NOW"}
