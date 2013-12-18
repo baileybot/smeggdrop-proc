@@ -1,1 +1,1 @@
-args {. \[ $args ] INTENSIFIES \] }
+args {if {$args eq ""} {set args "HACKING"} ;. \[ [string toupper $args]  INTENSIFIES \] }
