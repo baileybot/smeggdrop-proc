@@ -1,1 +1,1 @@
-{} {. lindex_random [words]}
+{} {lindex_random [words]}
