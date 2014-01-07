@@ -1,1 +1,1 @@
-{} {print "!markov tcl"}
+{} {print ~markov [lindex_random [words]]}
