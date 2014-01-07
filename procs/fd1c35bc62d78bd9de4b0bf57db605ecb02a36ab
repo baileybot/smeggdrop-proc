@@ -1,1 +1,1 @@
-{} {print {!markov [lindex_random [words]]}}
+{} {print !markov [randword]}
