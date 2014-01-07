@@ -1,1 +1,1 @@
-{} {print !markov [randword]}
+{} {print {!markov [randword]}}
