@@ -1,0 +1,1 @@
+{} {set slurs [split [wget "http://en.wikipedia.org/wiki/List_of_ethnic_slurs"] \n]; print [lindex_random $slurs]}
