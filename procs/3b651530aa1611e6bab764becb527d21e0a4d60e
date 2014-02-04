@@ -1,1 +1,1 @@
-{} {tcl . [color [lindex_random $color_names] on [lindex_random $color_names]][lindex_random $color_names]}
+{} { tcl . [color [lindex_random $color_names] on [lindex_random $color_names]][lindex_random $color_names] }
