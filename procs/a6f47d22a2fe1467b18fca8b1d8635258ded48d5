@@ -1,1 +1,1 @@
-args {[regsub \} [regsub \{ errday [join $args ] "" ] ""]}
+args {errday [. $args]}
