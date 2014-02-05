@@ -1,1 +1,1 @@
-str {set ret [list]; foreach i {9 7 5 3 1} {lappend ret [center [string repeat $str $i] [expr {[string length $str]*9}]]}; join $ret \n}
+str {set ret [list]; foreach i {5 3 1} {lappend ret [center [string repeat $str $i] [expr {[string length $str]*9}]]}; join $ret \n}
