@@ -1,1 +1,1 @@
-args {errday [. $args]}
+args {errday $args}
