@@ -1,1 +1,1 @@
-args {. !remind \"tcl ping\"}
+args {. \"tcl ping\"}
