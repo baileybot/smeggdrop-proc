@@ -1,1 +1,1 @@
-{} {. !ping}
+{} {. !remind "tcl ping:"}
