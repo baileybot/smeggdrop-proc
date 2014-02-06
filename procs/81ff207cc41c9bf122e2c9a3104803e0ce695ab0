@@ -1,1 +1,1 @@
-{} {. !remind tcl ping:" in 30 seconds}
+{} {. !ping}
