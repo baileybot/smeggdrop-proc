@@ -1,1 +1,1 @@
-{} {upvar color_names color_names; . [color [lindex_random $color_names] on [lindex_random $color_names]][lindex_random $color_names] }
+{} {print "     /\\\n    /  \\\n   /____\\\n  |         |\n  | bieks |"}
