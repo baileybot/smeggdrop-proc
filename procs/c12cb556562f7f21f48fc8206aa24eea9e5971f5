@@ -1,1 +1,1 @@
-{matches cmd args} {upvar img img ; print butts}
+{matches cmd args} {upvar img img; print [array get img [last $matches]] }
