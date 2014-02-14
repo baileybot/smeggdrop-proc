@@ -1,1 +1,1 @@
-{} {print "WHAT DO YOU WANT?? I AM TRYING TO SLEEP!!"}
+{} {upvar #0 pingresponses pingresponses; lindex_random $pingresponses }
