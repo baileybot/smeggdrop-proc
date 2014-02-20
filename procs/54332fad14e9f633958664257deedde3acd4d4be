@@ -1,1 +1,0 @@
-x {expr {$x<2? $x: [fibo(r) [- $x 1]] + [fibo(r) [- $x 2]]}}
