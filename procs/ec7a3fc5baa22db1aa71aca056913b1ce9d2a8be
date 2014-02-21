@@ -1,1 +1,1 @@
-{} {join {"[white on yellow](\___/)" {(o^:^o)} {(“)_(“)}} \n}
+{} {join [list "[white on yellow](\___/)" {(o^:^o)} {(“)_(“)}] \n}
