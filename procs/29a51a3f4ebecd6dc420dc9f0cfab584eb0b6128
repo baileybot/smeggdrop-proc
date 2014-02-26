@@ -1,1 +1,1 @@
-{nick cmd args} {error "$cmd is banished to the land of functioning repraps"}
+{nick cmd args} {if {$args == ""} {set args "VIRUS"} ; error "$cmd OVER. $args EQUALS VERY YES."}
