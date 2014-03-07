@@ -1,1 +1,1 @@
-{} {clock format [clock seconds] -format "%Y%m%D %H:%M"}
+{} {clock format [clock seconds] -format "%D %H:%M"}
