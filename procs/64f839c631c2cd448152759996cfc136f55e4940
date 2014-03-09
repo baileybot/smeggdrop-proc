@@ -1,0 +1,1 @@
+{} {set igg [split [wget "http://www.indiegogo.com/projects/south-side-hackerspace-chicago"] \n]; foreach p $igg {if {[string match *currency-xlarge* $p]} {set total $p}}; return [regsub "<span class=\"amount medium clearfix\"><span class=\"currency currency-xlarge\"><span>" [regsub "</span><em>USD</em></span></span>" $total "" ] ""]}
