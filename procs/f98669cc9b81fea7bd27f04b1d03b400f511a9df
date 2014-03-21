@@ -1,1 +1,36 @@
-{{station KMDW}} {	 set station [string toupper $station];	 set weather [split [wget "http://weather.noaa.gov/pub/data/observations/metar/decoded/$station.TXT"] \n]	; set wind "";	 set vis "";	 set cond ""	; set precip ""	; set temp ""	; set misc ""	; set ret ""	; set head [lindex $weather 0]	; foreach w $weather {	 switch -regexp $w {	 "^cycle:" -	 "^ob:" -	 "UTC" {}	 "^Wind:" {set wind "Wind: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}	 "^Visibility:" {lappend vis "Visibility: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}	 "^Sky conditions:" {lappend cond [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]}	 "^Weather:" {lappend cond [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]}	 "^Precipitation" {lappend vis "Precipitation: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}	 "^Temperature:" {lappend temp "Temperature: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}	 "^Windchill:" {lappend temp "Windchill: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}	 "^Dew Point:" {lappend temp "Dew point: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}	 "^Relative Humidity:" {lappend misc "Humidity: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}	 "^Pressure" {lappend misc "Pressure: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}}	 }	; if {$head ne ""} {lappend ret $head};	 if {$wind ne ""} {lappend ret $wind};	 if {$vis ne ""} {lappend ret [join $vis " / "]}	; if {$cond ne ""} {lappend ret "Conditions: [join $cond " / "]"};	 if {$temp ne ""} {lappend ret [join $temp " / "]}	; if {$misc ne ""} {lappend ret [join $misc " / "]};	 join $ret \t }
+{station KMDW} {
+	set station [string toupper $station]
+	set weather [split [wget "http://weather.noaa.gov/pub/data/observations/metar/decoded/$station.TXT"] \n]
+	set wind ""
+	set vis ""
+	set cond ""
+	set precip ""
+	set temp ""
+	set misc ""
+	set ret ""
+	set head [lindex $weather 0]
+	foreach w $weather {
+		switch -regexp $w {
+			"^cycle:" -
+			"^ob:" -
+			"UTC" {}
+			"^Wind:" {set wind "Wind: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}
+			"^Visibility:" {lappend vis "Visibility: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}
+			"^Sky conditions:" {lappend cond [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]}
+			"^Weather:" {lappend cond [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]}
+			"^Precipitation" {lappend vis "Precipitation: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}
+			"^Temperature:" {lappend temp "Temperature: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}
+			"^Windchill:" {lappend temp "Windchill: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}
+			"^Dew Point:" {lappend temp "Dew point: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}
+			"^Relative Humidity:" {lappend misc "Humidity: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}
+			"^Pressure" {lappend misc "Pressure: [regsub ":\[^:]$" [regsub ".*?: " $w ""] ""]"}
+		}
+	}
+	if {$head ne ""} {lappend ret $head}
+	if {$wind ne ""} {lappend ret $wind}
+	if {$vis ne ""} {lappend ret [join $vis " / "]}
+	if {$cond ne ""} {lappend ret "Conditions: [join $cond " / "]"}
+	if {$temp ne ""} {lappend ret [join $temp " / "]}
+	if {$misc ne ""} {lappend ret [join $misc " / "]}
+	join $ret " | "
+}
