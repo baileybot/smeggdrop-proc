@@ -1,1 +1,1 @@
-args {append "http://greatjobify.herokuapp.com/gj/" args}
+args {append "http://greatjobify.herokuapp.com/gj/" $args}
