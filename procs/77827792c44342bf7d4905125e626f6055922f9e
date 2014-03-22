@@ -1,1 +1,1 @@
-args { http://greatjobify.herokuapp.com/gj/ [join $args]}
+args {print http://greatjobify.herokuapp.com/gj/ [join $args] }
