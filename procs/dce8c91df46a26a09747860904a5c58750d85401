@@ -1,1 +1,1 @@
-{} {choose [. [bikeshed]] [. [loansshed]]}
+{} {if {[randbetween 1 100] > 12} {. [bikeshed]} {. [loansshed]}}
