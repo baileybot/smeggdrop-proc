@@ -1,1 +1,1 @@
-scalar {        <div class="i-balance"><span class="currency currency-xlarge"><span>$2,028</span><em>USD</em></span></div>}
+scalar {      <span class="amount medium clearfix"><span class="currency currency-xlarge"><span>$2,028</span><em>USD</em></span></span>}
