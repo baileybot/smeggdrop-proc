@@ -1,1 +1,1 @@
-{} {regsub interpreter [jessicaadvice] arbys}
+{} {regsub arbys [jessicaadvice] interpreter}
