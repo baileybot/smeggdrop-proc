@@ -1,1 +1,1 @@
-{} {set os [split [wget "http://stoney.sb.org/eno/oblique.html"] \n] ; foreach p $os {if {[string match *H3* $p]} {set strat $p}}  ; set strat [regexp -inline {(<H3>.*</H3>){1,1}?} $strat ]] ; regsub -all {(\{|\})} [lindex [split $strat] 0] "" }
+{} {set os [split [wget "http://stoney.sb.org/eno/oblique.html"] \n] ; foreach p $os {if {[string match *H3* $p]} {set strat $p}}  ; set strat [regexp -inline {(<H3>.*</H3>){1,1}?} $strat ]] ; regsub -all {(\{|\})} [lindex $strat 0] "" }
