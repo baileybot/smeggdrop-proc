@@ -1,1 +1,1 @@
-{} {set os [split [wget "http://stoney.sb.org/eno/oblique.html"] \n] ; foreach p $os {if {[string match *H3* $p]} {set strat $p}} ; . $strat }
+{} {set os [split [wget "http://stoney.sb.org/eno/oblique.html"] \n] ; foreach p $os {if {[string match *H3* $p]} {set strat $p}} ; regexp {<H3>(.*)<\/H3>} $strat }
