@@ -1,1 +1,1 @@
-{} {regsub arbys [jessicaadvice] interpreter}
+{} {print "taco taco"}
