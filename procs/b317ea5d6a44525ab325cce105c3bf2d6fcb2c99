@@ -1,1 +1,1 @@
-{} {[ronpaul]print "taco taco"}
+{} {[ronpaul][print "taco taco"]}
