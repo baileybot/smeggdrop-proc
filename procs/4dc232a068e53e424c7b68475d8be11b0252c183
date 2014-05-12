@@ -1,1 +1,1 @@
-{} {stampsay [choose [robotfindskitten] [obliquestrategies]]}
+{} {stampsay [eval [choose robotfindskitten obliquestrategies]]}
