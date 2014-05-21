@@ -1,1 +1,1 @@
-{matches cmd args} {shed $matches}
+{matches cmd args} {shed [last $matches]}
