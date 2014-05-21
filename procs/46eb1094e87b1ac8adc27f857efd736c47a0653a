@@ -1,1 +1,1 @@
-word {set ret [list]; set dots [string repeat "." [expr {[string length $word]/5 + 1}] ] ;lappend ret [pyramid $dots] ; lappend ret [center "| $word |" [expr {[string length $dots]*9}]]; join $ret \n}
+word {set ret [list]; set dots [string repeat "." [expr {[string length $word]/5 + 4}] ] ;lappend ret [pyramid $dots] ; lappend ret [center "| $word |" [expr {[string length $dots]*9}]]; join $ret \n}
