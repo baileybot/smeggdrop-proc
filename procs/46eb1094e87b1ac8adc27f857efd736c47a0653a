@@ -1,0 +1,1 @@
+word {set ret [list]; lappend ret [pyramid "."] ; lappend ret [center $word [expr {string length $word]+1}]]}
