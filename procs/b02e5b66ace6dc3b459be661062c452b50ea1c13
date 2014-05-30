@@ -1,0 +1,1 @@
+args {if {$args eq ""} {set args "Restate my assumptions."}; set time [clock format [clock seconds] -format "%I:%M"]; . "$time. $args." }
