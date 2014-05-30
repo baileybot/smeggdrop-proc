@@ -1,1 +1,1 @@
-args {if {$args eq ""} {upvar #0 piquotes piquotes ; set args [lindex_random piquotes] }; set time [clock format [clock seconds] -format "%I:%M"]; . "$time. $args." }
+args {if {$args eq ""} {upvar #0 piquotes piquotes ; set args [lindex_random $piquotes] }; set time [clock format [clock seconds] -format "%I:%M"]; . "$time. $args." }
