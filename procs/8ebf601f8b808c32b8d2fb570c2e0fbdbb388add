@@ -1,1 +1,1 @@
-{} {lindex_random $cats}
+{} {upvar #0 cats cats; lindex_random $cats}
