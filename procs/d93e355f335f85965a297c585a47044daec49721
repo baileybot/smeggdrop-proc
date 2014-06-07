@@ -1,0 +1,1 @@
+url {upvar #0 squid squid ; lappend squid $url ; return "Squid added."}
