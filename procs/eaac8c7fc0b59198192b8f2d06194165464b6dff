@@ -1,1 +1,1 @@
-url {upvar #0 cats; lappend cats $url ; return "Cat added."}
+url {upvar #0 cats cats; lappend cats $url ; return "Cat added."}
