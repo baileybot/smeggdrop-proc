@@ -1,1 +1,1 @@
-{matches cmd args} {upvar #0 img img; lindex [array get img [last $matches]] 1 }
+{matches cmd args} {upvar #0 img img; set url [lindex [array get img [last $matches]] 1] ; if {[string length $url] != 0} {. $url} {. "[last $matches] not found."}  }
