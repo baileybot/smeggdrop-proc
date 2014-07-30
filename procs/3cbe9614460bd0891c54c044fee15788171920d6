@@ -1,1 +1,1 @@
-{} {proc ST:dongers {} {. "\n"+[dongers]}}
+{} {. "\n" + [dongers]}
