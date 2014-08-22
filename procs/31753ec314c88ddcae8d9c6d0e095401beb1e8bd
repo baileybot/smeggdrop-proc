@@ -1,0 +1,1 @@
+args {if {$args eq ""} {set args "MAN"}; . "TWO $argsS ENTER! ONE $args LEAVES!"}
