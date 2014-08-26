@@ -1,1 +1,1 @@
-args {if {$args eq ""} {set args "MAN"}; . "TWO $args\ S ENTER! ONE $args LEAVES!"}
+{singular plural} {. "TWO $plural ENTER! ONE $singular LEAVES!" }
