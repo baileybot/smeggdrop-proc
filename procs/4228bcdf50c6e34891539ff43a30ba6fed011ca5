@@ -1,0 +1,1 @@
+{cmd args} {smega [concat $cmd $args] 5}
