@@ -1,0 +1,1 @@
+{block {n 10}} {set ret [list]; foreach i [seq 1 $n] {if {[catch {uplevel 1 $block} val] == 1} {set val "error: $val"}; lappend ret $val}; join $ret \n}
