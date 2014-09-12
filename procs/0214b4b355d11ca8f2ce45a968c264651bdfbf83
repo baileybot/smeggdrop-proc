@@ -1,0 +1,1 @@
+{{part {}}} {upvar block block if {${part} eq "args"} { first ${block} } elseif {${part} eq "body"} { last ${block} } elseif {${part} eq "arity"} { llength [first ${block}] } else { set block }}
