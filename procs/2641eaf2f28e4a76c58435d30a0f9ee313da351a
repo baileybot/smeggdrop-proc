@@ -1,1 +1,1 @@
-{} {regsub motorcycle [dimadvice] arbys}
+{} {choose [regsub motorcycle [dimadvice] arbys] [ . "http://www.smbc-comics.com/comics/20140827after.gif"]}
