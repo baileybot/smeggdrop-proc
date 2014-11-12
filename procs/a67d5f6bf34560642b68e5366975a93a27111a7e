@@ -1,1 +1,1 @@
-{} { . [checkbox] [choose [x] [check]] }
+{} { . [checkbox [choose [x] [check]]] }
