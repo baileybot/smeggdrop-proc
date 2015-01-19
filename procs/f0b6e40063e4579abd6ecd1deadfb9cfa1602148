@@ -1,1 +1,1 @@
-{} {. img-[lindex_random [array get img]] }
+{} {img-[lindex_random [array get img]] }
