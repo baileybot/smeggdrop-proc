@@ -1,1 +1,1 @@
-{} {upvar #0 img img; set subject [lindex_random [array get img]] ; . "img-$subject [img-$subject]" }
+{} {upvar #0 img img; set subject [lindex_random [array get img]] ; . "img-$subject\n [array get img $subject]" }
