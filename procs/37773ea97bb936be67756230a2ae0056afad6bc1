@@ -1,1 +1,1 @@
-{} {. !markov It's a}
+{} {choose "!markov It's a" "!markov A" "!markov There's a"}
