@@ -1,0 +1,1 @@
+{} {upvar #0 looplunch looplunch; lindex_random $looplunch}
