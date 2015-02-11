@@ -1,1 +1,1 @@
-args {. "use addlooplunch ya dingus!"}
+args {addlooplunch $args}
