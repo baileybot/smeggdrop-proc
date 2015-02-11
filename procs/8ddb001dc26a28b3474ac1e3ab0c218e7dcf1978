@@ -1,0 +1,1 @@
+spotname {upvar #0 looplunch looplunch; lappend looplunch $spotname ; return "Lunch spot added."}
