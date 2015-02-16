@@ -1,0 +1,1 @@
+{} {upvar #0 debianfeatures debianfeatures ; print "DOES DEBIAN STABLE SUPPORT [string toupper [lindex_random $debianfeatures]] YET? FEDORA HAS SUPPORTED [string toupper [lindex_random $debianfeatures]] FOR [randbetween 1 10] YEARS NOW"}

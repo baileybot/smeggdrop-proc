@@ -1,0 +1,1 @@
+str {join [blrain [lrange [lines $str] 0 9]] \n}

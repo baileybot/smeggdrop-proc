@@ -1,0 +1,1 @@
+str {  set chars [list]; set seenq 0 ; foreach char [split $str {}] {    if { $char == "?" && !$seenq } { lappend chars $char; set seenq 1 } elseif [regexp -nocase {[ \[\]\?]} $char] { lappend chars %[format %02X [scan $char %c]] } else { lappend chars $char } }; join $chars {} }

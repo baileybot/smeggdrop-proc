@@ -1,0 +1,1 @@
+args { set b [lindex $args 0]; set args [lrange $args 1 [llength $args]]; set o ""; set nlines [maxlines $args]; set newline ""; set nl ""; foreach j $args { lappend nl [addspaces $nlines $j]; }; for {set i 0} { $i < $nlines } { incr i } { append o $newline; set d ""; foreach k $nl { append o "$d[lindex [split $k "\n"] $i]"; set d $b; }; set newline "\n"; }; return $o; }

@@ -1,0 +1,1 @@
+{} {upvar #0 pingresponses pingresponses; lindex_random $pingresponses }

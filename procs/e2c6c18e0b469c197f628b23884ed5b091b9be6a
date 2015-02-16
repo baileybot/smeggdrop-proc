@@ -1,0 +1,1 @@
+{str {cols 72}} {set ret [list]; set line ""; foreach word [split $str] {if {[string length "$line"] && [string length "$line $word"] > $cols} {lappend ret $line; set line "$word"} {append line " $word"}}; if [string length "$line"] {lappend ret $line}; join $ret \n}

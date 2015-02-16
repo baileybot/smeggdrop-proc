@@ -1,0 +1,1 @@
+args {print "http://greatjobify.herokuapp.com/gj/$args" }

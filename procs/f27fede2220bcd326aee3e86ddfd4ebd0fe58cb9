@@ -1,0 +1,1 @@
+proc {set args [list]; foreach arg [info args $proc] {if [info default $proc $arg default] {lappend args [list $arg $default]} {lappend args $arg}}; list proc $proc $args [info body $proc]}

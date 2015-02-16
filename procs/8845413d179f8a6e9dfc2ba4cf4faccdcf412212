@@ -1,0 +1,1 @@
+{} {set os [split [wget "http://stoney.sb.org/eno/oblique.html"] \n] ; foreach p $os {if {[string match *H3* $p]} {set strat $p}} ; set strat [string trim $strat] ; string range $strat 4 end-5}

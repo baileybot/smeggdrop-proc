@@ -1,0 +1,1 @@
+pastelink {eval [wget $pastelink]}

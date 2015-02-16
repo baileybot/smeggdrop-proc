@@ -1,0 +1,1 @@
+{str cols} {string range [broken_wrap $str $cols] 1 end}

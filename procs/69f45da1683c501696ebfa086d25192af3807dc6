@@ -1,0 +1,1 @@
+{cmd arg} { uplevel [concat $cmd $arg] }

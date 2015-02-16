@@ -1,0 +1,1 @@
+args {return [lindex $args [randbetween 0 [expr [llength $args] - 1]]]}

@@ -1,0 +1,1 @@
+{m lines} {set nlines "";set a " "; foreach j $lines { set sl [string length [strip_all $j]]; if {$sl < $m} { set j "$j[string repeat $a [expr {$m - $sl}]]"; }; lappend nlines $j; }; return $nlines}

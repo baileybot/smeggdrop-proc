@@ -1,0 +1,1 @@
+str {regsub -all {[]} [strip_color $str] ""}

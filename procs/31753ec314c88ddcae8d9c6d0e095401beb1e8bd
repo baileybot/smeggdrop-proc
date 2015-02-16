@@ -1,0 +1,1 @@
+{singular plural} {. "TWO [string toupper $plural] ENTER! ONE [string toupper $singular] LEAVES!" }

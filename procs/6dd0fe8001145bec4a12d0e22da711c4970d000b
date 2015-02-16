@@ -1,0 +1,1 @@
+args {if ![llength $args] {return };if {[lindex $args 0] eq "default"} {return };set ret [color_of [lindex $args 0]]; if {[llength $args] > 1} {if {[lindex $args 1] eq "on"} {append ret ,[color_of [lindex $args 2]]} {append ret ,[color_of [lindex $args 1]]}}; return $ret}

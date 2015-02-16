@@ -1,0 +1,1 @@
+name {if {$name == 0} {set i 0} elseif {[regexp {^\d+$} $name]} {set i [string trimleft $name 0]} elseif {[set i [lsearch -glob $::color_names $name*]] == -1} {error "no such color \"$name\""}; format %02d $i}

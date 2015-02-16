@@ -1,0 +1,1 @@
+{nick cmd args} {if {$args == ""} {set args "VIRUS"} {set args [string toupper $args]} ; error "[string toupper $cmd] OVER. $args EQUALS VERY YES."}
