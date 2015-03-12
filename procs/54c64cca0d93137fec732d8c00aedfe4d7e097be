@@ -1,0 +1,1 @@
+{} {upvar #0 beardo beardo; lindex_random $beardo}
