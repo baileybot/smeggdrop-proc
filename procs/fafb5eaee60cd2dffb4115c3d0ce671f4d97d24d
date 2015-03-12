@@ -1,1 +1,1 @@
-{} {print !markov}
+args {print !markov $args}
