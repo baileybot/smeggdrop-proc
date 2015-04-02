@@ -1,0 +1,1 @@
+{{who {}}} {if {$who eq ""} {set who [lindex_random [names]]}; return "$who: wow!"}
