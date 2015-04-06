@@ -254,6 +254,7 @@ unknown:2:cmd/(ÿ+)0 3ef2556d7d202a0def18199f6f6507d6ca94cc0d
 {unknown:2:cmd/(ÿ+)0$/} cb2dc418fc05f1a92dec79f6dcebbab21786343e
 {unknown:2:cmd/img-(.+)$/} c12cb556562f7f21f48fc8206aa24eea9e5971f5
 {unknown:2:cmd/more(.+)$/} 786d0ff24508a69d5d0631bd9e2e43a8cecd6417
+{unknown:cmd/(ÿ+)0$/} f7358657016247e509848bc47dfab35d4ab95450
 unknown:handler_for 8bbe4e26521bc2414eb52c173e94335e34bf7060
 unknown:nick/minivanmegafun/ a18cd1d251165e36ab47654dec29eab0158cdf24
 unknown:nick/r4v5/ 29a51a3f4ebecd6dc420dc9f0cfab584eb0b6128
