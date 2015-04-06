@@ -246,6 +246,7 @@ unflip 12d802113e437ea3e142018ddc7a05acd47b3a17
 unflipme 4a0cddcf61cfdb1197db5036383bdc0d3ceab596
 unknown 50d8b4a941c26b89482c94ab324b5a274f9ced66
 {unknown:1:cmd/(.+)_word$/} 6091c91baaf7f6beb9a1041f15620c302190abd7
+{unknown:1:cmd/(ÿ+)0$/} 7c5ec3d67d0c84b440ee19a19771129671812716
 {unknown:2:cmd/(.+)amid$/} 856ffd63c685dddf005474140343e341dc39779f
 {unknown:2:cmd/(.+)say$/} 8dd874d439c08ce3002544b2b39b47051bed0bfd
 {unknown:2:cmd/(.+)shed$/} 1c2ccf54da2a2599f3ccf16cd320e1ad91bd4980
