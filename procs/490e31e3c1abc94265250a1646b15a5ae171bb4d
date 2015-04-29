@@ -1,1 +1,1 @@
-{} {choose [. "Whatever"] [. "Who cares?"]}
+{} {choose [. "Whatever"] [. "Who cares?"] [. "Give it a rest"] [. "Ugh!"]}
