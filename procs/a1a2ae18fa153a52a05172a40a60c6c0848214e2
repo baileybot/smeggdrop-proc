@@ -5,7 +5,7 @@ args {
 	if {[llength [info commands [escape_glob $proc]]] == 1} {
 		src $proc
 	} elseif {[llength $procs] == 0} {
-		if [llength [set handler [apply unknown:handler_for $args]]] {
+		if [llength [set handler [aapply unknown:handler_for $args]]] {
 		  src [lindex $handler 0]
 		} else {
 		  error "\"$proc\" isn't a procedure"
