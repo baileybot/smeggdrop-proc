@@ -261,8 +261,8 @@ unknown 50d8b4a941c26b89482c94ab324b5a274f9ced66
 {unknown:2:cmd/more(.+)$/} 786d0ff24508a69d5d0631bd9e2e43a8cecd6417
 {unknown:cmd/(ÿ+)0$/} f7358657016247e509848bc47dfab35d4ab95450
 unknown:handler_for 8bbe4e26521bc2414eb52c173e94335e34bf7060
+unknown:nick/baileybot/ ff0ef719b0676e908eabbed9639cd448a6d18879
 unknown:nick/minivanmegafun/ a18cd1d251165e36ab47654dec29eab0158cdf24
-unknown:nick/r4v5/ 29a51a3f4ebecd6dc420dc9f0cfab584eb0b6128
 urlify e3383e6e8482cb7c80abba53c7431d05abd466be
 v 7a38d8cbd20d9932ba948efaa364bb62651d5ad4
 w/e d18564896f5f7f4d546e1d1e89aff1382bfab165
