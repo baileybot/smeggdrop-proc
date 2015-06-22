@@ -1,6 +1,6 @@
 args {
-  if [llength [set handler [apply unknown:handler_for $args]]] {
-    apply $handler $args
+  if [llength [set handler [aapply unknown:handler_for $args]]] {
+    aapply $handler $args
   } else {
     error "invalid command name \"[lindex $args 0]\""
   }
