@@ -1,1 +1,1 @@
-{matches cmd args} {apply [list stampsay -s [last $matches]] $args}
+{matches cmd args} {aapply [list stampsay -s [last $matches]] $args}
