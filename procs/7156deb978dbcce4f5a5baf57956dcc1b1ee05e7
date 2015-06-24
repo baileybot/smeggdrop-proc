@@ -1,1 +1,1 @@
-{name url} {upvar #0 img img; array set img [list $name $url] ; . "$name successfully added."}
+{name url} {dict append img $name $url ; . "$name successfully added." }
