@@ -1,1 +1,1 @@
-{name url} {dict append img $name $url ; . "$name successfully added." }
+{name url} {dict lappend img $name $url ; . "$name successfully added." }
