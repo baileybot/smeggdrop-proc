@@ -1,1 +1,1 @@
-args {test: [safeprint $args]}
+args {. "test: [safeprint $args]" }
