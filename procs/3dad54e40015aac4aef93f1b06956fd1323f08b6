@@ -1,1 +1,1 @@
-{} {print no bad jokes please}
+{} {if {[randbetween 1 10000] > 2} {print "no bad jokes please"} {print "ba dum tish" }}
