@@ -1,1 +1,1 @@
-args {if {$args eq ""} {set args "smoek weed"}; set time [clock format [clock seconds] -format "%I:%M"] ; . "$time [string tolower "$args"] errday"}
+args {if {$args eq ""} {set args "smoek weed"}; set time [clock format [clock seconds] -format "%I:%M"] ; . "$time [join [string tolower "$args"]] errday"}
