@@ -1,1 +1,1 @@
-args {join {"http://lmgtfy.com/?q=" [string map {" " +} $args]} ""}
+args {"http://lmgtfy.com/?q=" [string map {" " +} $args]}
