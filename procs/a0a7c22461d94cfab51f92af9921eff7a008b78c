@@ -1,1 +1,1 @@
-{{$args}} {concat "http://lmgtfy.com/?q=" [string map {" " +} $args]}
+args {concat "http://lmgtfy.com/?q=" [string map {" " +} $args]}
