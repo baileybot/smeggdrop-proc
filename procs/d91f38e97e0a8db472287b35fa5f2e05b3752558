@@ -1,1 +1,1 @@
-{} { upvar #0 dpstate dpstate; if { $dpstate == 1} {set dpstate 0 ; print "LISA NEEDS BRACES"} {set dpstate 1 ; print "DENTAL PLAN"}}
+{} { upvar #0 dpstate dpstate; if { $dpstate == 1} {set dpstate 0 ; print "LISA NEEDS GIGABYTES"} {set dpstate 1 ; print "DATA PLAN"}}
