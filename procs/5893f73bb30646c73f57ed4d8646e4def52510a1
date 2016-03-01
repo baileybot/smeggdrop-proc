@@ -1,1 +1,1 @@
-{} {. "Lousy Smarch weather:" . [weather]}
+{} {. "Lousy Smarch weather:" [weather]}
