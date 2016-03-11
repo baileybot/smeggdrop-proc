@@ -1,1 +1,1 @@
-args {if {$args eq ""} {set args "Head on"}; . "[. $args]! Apply directly to the forehead! [. $args]! Apply directly to the forehead! [. $args]! Apply directly to the forehead!"}
+args {if {$args eq ""} {set args "Head on"}; . "$args! Apply directly to the forehead! $args! Apply directly to the forehead! $args! Apply directly to the forehead!"}
