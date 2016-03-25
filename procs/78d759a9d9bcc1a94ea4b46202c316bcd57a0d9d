@@ -1,1 +1,1 @@
-args {{if $args eq ""} {set args "chicago style"}; "[string toupper "$args"] MEANS TO DO SOMETHING WITH NO PANTS ON POKEY! ! ! http://yellow5.com/pokey/archive/index382.html"}
+args {if {$args eq ""} {set args "chicago style"}; "[string toupper "$args"] MEANS TO DO SOMETHING WITH NO PANTS ON POKEY! ! ! http://yellow5.com/pokey/archive/index382.html"}
