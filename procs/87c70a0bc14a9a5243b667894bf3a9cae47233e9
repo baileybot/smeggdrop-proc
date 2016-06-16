@@ -1,1 +1,1 @@
-{} {. http://radar.weather.gov/lite/N0R/LOT_0.png}
+{} {. http://radar.weather.gov/lite/N0R/LOT_0.png?[rand 10000]}
