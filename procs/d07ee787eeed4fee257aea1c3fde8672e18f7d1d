@@ -1,1 +1,1 @@
-{} {. [choose {BUSTIN} {BUSTIN BUSTIN BUSTIN BUSTIN} {BUSTIN MAKES ME FEEL GOOD} {SLEEPIN MAKES ME FEEL GOOD} {Lemme tell ya somethin'} ] }
+{} {. [choose [repeat {BUSTIN } [randbetween 1 10]]  {BUSTIN MAKES ME FEEL GOOD} {SLEEPIN MAKES ME FEEL GOOD} {Lemme tell ya somethin'} ] }
