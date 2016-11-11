@@ -1,0 +1,1 @@
+{} { repeat {BUSTIN } [randbetween 1 10]}
