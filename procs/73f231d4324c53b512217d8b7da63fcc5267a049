@@ -1,0 +1,1 @@
+{} {regsub -all BUSTIN [mega bustin] TUSSIN}
