@@ -1,0 +1,1 @@
+{} {. "[randword]-[randword] - #[randbetween 1 1000] [choose "Success" "Failed"] after [randbetween 1 45] min [randbetween 0 59] sec"}
