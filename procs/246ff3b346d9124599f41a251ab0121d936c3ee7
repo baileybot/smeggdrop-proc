@@ -1,1 +1,1 @@
-{} {sleep 1; . "huh?"}
+{} {after 1000 . "huh?"}
