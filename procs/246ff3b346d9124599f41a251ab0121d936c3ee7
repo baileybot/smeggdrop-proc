@@ -1,1 +1,1 @@
-{} {after 1000 . "huh?"}
+{} {after 1000 print "huh?"}
