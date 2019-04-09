@@ -1,1 +1,1 @@
-{} {if {[string match *operational* [wget https://kctbh9vrtdwd.statuspage.io/api/v2/status.json]]} {. "LGTM"} else {. "Please review: https://status.github.com"} }
+{} {if {[string match *Operational* [wget https://kctbh9vrtdwd.statuspage.io/api/v2/status.json]]} {. "LGTM"} else {. "Please review: https://status.github.com"} }
