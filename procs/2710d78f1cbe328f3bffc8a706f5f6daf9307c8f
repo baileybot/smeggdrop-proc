@@ -1,1 +1,1 @@
-{} {if {[string match *Hoagiefest* [wgethttps://www.wawa.com/fresh-food/hoagies]]} {. "JOYOUS HOAGIEFEST"} else {. "nogiefest :("} }
+{} {if {[string match *Hoagiefest* [wget https://www.wawa.com/fresh-food/hoagies]]} {. "JOYOUS HOAGIEFEST"} else {. "nogiefest :("} }
