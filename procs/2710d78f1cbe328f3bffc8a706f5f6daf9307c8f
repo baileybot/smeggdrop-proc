@@ -1,0 +1,1 @@
+{} {if {[string match *Hoagiefest* [wgethttps://www.wawa.com/fresh-food/hoagies]]} {. "JOYOUS HOAGIEFEST"} else {. "nogiefest :("} }
