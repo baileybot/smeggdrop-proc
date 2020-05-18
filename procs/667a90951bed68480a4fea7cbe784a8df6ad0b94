@@ -1,1 +1,1 @@
-{} {. [wget "wttr.in/chicago?format=%l%3a%20%C%20%t"] \n hello world}
+{} {. [wget "wttr.in/chicago?format=%l%3a%20%C%20%t"]  [wget "wttr.in/new%20york?format=%l%3a%20%C%20%t"]}
