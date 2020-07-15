@@ -1,0 +1,1 @@
+{} { wget "https://tgftp.nws.noaa.gov/data/forecasts/city/il/chicago.txt" }
